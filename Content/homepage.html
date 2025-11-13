@@ -7,34 +7,46 @@
   <link rel="stylesheet" href="css/styleMain.css">
 </head>
 <body>
-  <div id="Full Container">
-    <header style="background-color: aliceblue;">
+  <div id="full-container">
+    <header class="site-header">
       <div class="headerContainer">
         <h1>RTA Quiz</h1>
         <nav>
           <select name="Page Select" id="pageSelectDropdown">
-            <option value="0">Select</option>
-            <option value="1"></option>
-            <option value="2">Contact Us</option>
+            <option value="homepage.html">Home</option>
+            <option value="resources.html">Resources</option>
+            <option value="contact.html">Contact Us</option>
           </select>
-          
         </nav>
       </div>
     </header>
-    <main>
-      <div class="contentContainer">
+
+    <main class="main-content">
+      <div class="container">
         <h2>Welcome to the RTA Quiz</h2>
         <p>This is a simple quiz application to test your knowledge about Road Traffic Authority (RTA) regulations.</p>
         <p>Click the button below to start the quiz.</p>
-        <button id="startQuizButton">Start Quiz</button>
+        <a href="quiz.html">Start Quiz</a>
+      </div>
+
+      <div class="container">
+        <h2>
+          About RTA Quiz
+        </h2>
+
+        <p>
+          The RTA Quiz is designed to help individuals prepare for their driving theory tests by providing a variety of questions related to road rules, traffic signs, and safe driving practices. Whether you're a new driver or looking to refresh your knowledge, this quiz offers a fun and interactive way to learn.
+        </p>
       </div>
     </main>
-    <footer>
-      <div class="footerContainer" style="background-color: aliceblue;">
+
+    <footer class="site-footer">
+      <div class="footerContainer">
         <p>&copy; 2023 RTA Quiz. All rights reserved.</p>
         <p>Developed by Kareem Hijaz</p>
       </div>
     </footer>
-  </div>  
+  </div>
 </body>
+<script src="js/scriptMain.js"></script>
 </html>

@@ -1,11 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>RTA Quiz Results</title>
+
+  <link rel="stylesheet" href="css/styleMain.css">
+  <link rel="stylesheet" href="css/quiz.css">
 </head>
 <body>
-  
+  <div class="pageContainer">
+    <header class="headerContainer" style="background-color: aliceblue;">
+      <h1>Quiz Results</h1>
+    </header>
+
+    <br>
+
+    <main class="content">
+      <section class="results card">
+        <div id="summary" class="result-summary"></div>
+        <div id="breakdown"></div>
+
+        <div style="margin-top:18px">
+          <button id="retakeBtn" class="btn">Retake Quiz</button>
+          <button id="clearBtn" class="btn" style="margin-left:8px;background:#999;color:#fff">Clear Stored Data</button>
+        </div>
+
+        <br>
+
+        <a href="homepage.html">Return Home</a>
+      </section>
+      <br>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footerContainer">
+        <p>&copy; 2023 RTA Quiz. All rights reserved.</p>
+        <p>Developed by Kareem Hijaz</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/results.js" defer></script>
 </body>
 </html>
